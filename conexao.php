@@ -10,3 +10,4 @@ if(!$con){
     }else{
         echo "Conexao estabelecida com suscesso!";
     }
+?>
