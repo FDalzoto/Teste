@@ -11,7 +11,7 @@ $vsupervisor = $_POST["lsupervisor"];
 $vdepto = $_POST["ldepto"];
 
 $sqliIserir = "insert into funcionario (matricula, nome, dataNasc, endereco, sexo, salario, supervisor, depto) values ('$vmatricula', '$vnome', '$vdataNasc', '$endereco', '$vsexo', '$vsalario', '$vsupervisor', '$vdepto')";
-$result = mysqli_query($con, $sqliIserir);
+$result = mysqli_query($conn, $sqliIserir);
 
 if($result == true){
     echo "O funcionario: " . $vnome . "foi cadastrado com sucesso.";
