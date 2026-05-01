@@ -2,7 +2,7 @@
 
 mysqli_report(MYSQLI_REPORT_OFF);
 
-$con = mysqil_connect("localhost", "root", "", "empresa");
+$con = mysqil_connect("127.0.0.1", "root", "", "empresa");
 
 if(!$con){
     echo "Verifique o usuário, senha e o nome do BD" .
