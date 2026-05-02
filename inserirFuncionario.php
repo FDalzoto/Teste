@@ -6,9 +6,9 @@ $usuario = "root";
 $senha = "";
 
 try{
-    $conexao = new PDO("mysql:host=$host; dbname=$banco; charset=utf8", $usuario, $senha);  
+    $con = new PDO("mysql:host=$host; dbname=$banco; charset=utf8", $usuario, $senha);  
 
-    $conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXEPTION);
+    $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXEPTION);
 
     echo "Conexão realizada com sucesso!";
 
