@@ -3,6 +3,8 @@ input[type=text]{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
 }
 body{
     background-color: rgb(127, 168, 255);
