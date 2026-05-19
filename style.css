@@ -1,0 +1,10 @@
+input[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(127, 168, 255);
+    color: black;
+}
